@@ -1,0 +1,56 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #CAEAEA;
+  font-family: 'Poiret One', serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #99e6ff;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+font-family: 'Poiret One', serif;
+color: #ffffff;
+font-size: 2.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+vertical-align: middle;
+line-height: .50;
+padding-top: 25px
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 30px;
+}
+
+.section {
+  font-family: 'Poiret One', serif;
+  background-color: white;
+  text-align: center;
+  box-shadow: 10px 5px 5px #99e6ff;
+}
+
+h3 {
+ font-weight: bold; 
+}
